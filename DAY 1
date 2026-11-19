@@ -1,0 +1,45 @@
+ 1.SUM OF TWO NUMBERS
+   #include<stdio.h>
+ int main()
+ {
+  int a,b,sum=0;
+  scanf("%d%d",&a,&b);
+  sum=a+b;
+  printf("sum is :%d",sum);
+ }
+2.PRINT THE NAME
+#include<stdio.h>
+int main()
+{
+    printf("SRI");
+}
+3.PRINT WITH SPL CHAR
+#include <stdio.h>
+
+int main()
+{
+    printf("stop and \"steady\"wins the race");
+}
+4.PRINT WITH SPL CHAR
+#include <stdio.h>
+
+int main()
+{
+    printf("\\n");
+}
+5.PRINT % IN EVEN
+#include <stdio.h>
+
+int main()
+{
+    printf("%%%%%%%%%%%%%%%%");
+}
+6.TO GIVE THE REMAINDER
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    printf("%d",n%10);
+}
