@@ -1,0 +1,207 @@
+#include<stdio.h>
+ int main()
+ {
+     int n,row,col;
+     scanf("%d",&n);
+     for(row=0;row<n;row++,printf("\n"))
+     {
+         for(col=0;col<n;col++)
+         printf("*");
+     }
+ }
+  #include<stdio.h>
+  int main()
+  {
+      int n,row,col;
+      scanf("%d",&n);
+      for(row=0;row<n;row++,printf("\n"))
+      {
+          for(col=0;col<n-row;col++)
+          printf("*");
+      }
+  }
+
+#include<stdio.h>
+ int main()  {
+      int n,row,col;
+      scanf("%d",&n);
+      for(row=0;row<n;row++,printf("\n"))
+      {
+          for(col=0;col<n-row-1;col++)
+          printf(" ");
+          for(col=0;col<=row;col++)
+          printf("*");
+      }
+  }
+ #include<stdio.h>
+ int main()  {
+      int n,row,col;
+      scanf("%d",&n);//  #include<stdio.h>
+ int main()  {
+      int n,row,col;
+      scanf("%d",&n);
+      for(row=0;row<n;row++,printf("\n"))
+      {
+          for(col=0;col<=row-1;col++)
+          printf(" ");
+          for(col=0;col<n;col++)
+          printf("*");
+      }
+  }
+ #include<stdio.h>
+ int main()  {
+      int n,row,col;
+      scanf("%d",&n);
+      for(row=0;row<n;row++,printf("\n"))
+      {
+          for(col=0;col<n-row-1;col++)
+          printf(" ");
+          for(col=0;col<n;col++)
+          printf("*");
+      for(row=0;row<n;row++,printf("\n"))
+      {
+          for(col=0;col<=row;col++)
+          printf("*");
+          for(col=0;col<n-row-1;col++)
+          printf(" ");
+          for(col=0;col<=row;col++)
+          printf("*");
+      }
+  }
+ #include<stdio.h>
+ int main()  {
+      int n,row,col;
+      scanf("%d",&n);
+      for(row=0;row<n;row++,printf("\n"))
+      {
+          for(col=0;col<n;col++)
+          printf("1");
+      }
+} 
+#include<stdio.h>
+ int main()  {
+      int n,row,col;
+      scanf("%d",&n);
+      for(row=0;row<n;row++,printf("\n"))
+      {
+          for(col=0;col<n;col++)
+          printf("%d",row+1);
+      }
+}
+#include<stdio.h>
+ int main()  {
+      int n,row,col;
+      scanf("%d",&n);
+      for(row=0;row<n;row++,printf("\n"))
+      {
+          for(col=0;col<n;col++)
+          printf("%d",col+1);
+      }
+
+#include<stdio.h>
+int main()  {
+      int n,row,col;
+      scanf("%d",&n);
+      for(row=0;row<n;row++,printf("\n"))
+      {
+          for(col=0;col<n-row;col++)
+          printf("%d",n-col);
+      }
+}
+#include<stdio.h>
+int main()  {
+      int n,row,col,d=1;
+      scanf("%d",&n);
+      for(row=0;row<n;row++,printf("\n"))
+      {
+          for(col=0;col<=row;col++)
+          printf("%d",d++);
+      }
+}
+#include<stdio.h>
+int main()  {
+      int n,row,col,d=1;
+      scanf("%d",&n);
+      for(row=0;row<n;row++,printf("\n"))
+      {
+          for(col=0;col<n;col++)
+          printf("%d",d++);
+      }
+}
+#include<stdio.h>
+int main()  {
+      int n,row,col,d=1;
+      scanf("%d",&n);
+      for(row=0;row<n;row++,printf("\n"))
+      {
+          for(col=0;col<=row;col++)
+          printf("%d",row+1);
+      }
+ }
+#include<stdio.h>
+int main()
+{
+	int n,i;
+	scanf("%d",&n);
+	int arr[n];
+	for(i=0; i<n; i++)
+		scanf("%d",&arr[i]);
+	for(i=0; i<n; i++)
+		printf("%d",arr[i]);
+}
+#include<stdio.h>
+int main()
+{
+	int n,i,sum=0;
+	scanf("%d",&n);
+	int arr[n];
+	for(i=0; i<n; i++)
+	{	scanf("%d",&arr[i]);
+		sum=sum+arr[i];
+}
+float avg=(float)sum/n;
+printf("avg of elements: %.2f",avg);
+}
+#include<stdio.h>
+int main()
+{
+	int n,i,sum=0;
+	scanf("%d",&n);
+	int arr[n];
+	for(i=0; i<n; i++)
+	{	scanf("%d",&arr[i]);
+		sum=sum+arr[i];
+}
+printf("sum of elements: %d",sum);
+}
+#include<stdio.h>
+int main()
+{
+    int row,col,i,j;
+    scanf("%d%d",&row,&col);
+    int arr[row][col];
+    for(i=0;i<row;i++)
+    {
+        for(j=0;j<col;j++)
+        scanf("%d",&arr[i][j]);
+    }
+    for(i=0;i<row;i++,printf("\n"))
+    {
+        for(j=0;j<col;j++)
+        printf("%d ",arr[i][j]);
+    }
+}
+#include<stdio.h>
+int main()
+{
+    int row,col,i,j,sum=0;
+    scanf("%d%d",&row,&col);
+    int arr[row][col];
+    for(i=0;i<row;i++)
+    {
+        for(j=0;j<col;j++)
+        {scanf("%d",&arr[i][j]);
+        sum=sum+arr[i][j];
+    }
+        printf("sum is: %d",sum);
+    }
